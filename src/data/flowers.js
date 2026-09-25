@@ -1,38 +1,38 @@
 const flowers = [
   {
     id: 1,
-    name: "Rose",
-    image: "/flowers/flower1.png",
+    name: "Pinklily",
+    image: `${import.meta.env.BASE_URL}flowers/flower1.png`,
   },
   {
     id: 2,
-    name: "Tulip",
-    image: "/flowers/flower2.png",
+    name: "Lilacs",
+    image: `${import.meta.env.BASE_URL}flowers/flower2.png`,
   },
   {
     id: 3,
-    name: "Peony",
-    image: "/flowers/flower3.png",
+    name: "Sunflower",
+    image: `${import.meta.env.BASE_URL}flowers/flower3.png`,
   },
   {
     id: 4,
-    name: "Lavender",
-    image: "/flowers/flower4.png",
+    name: "Bluerose",
+    image: `${import.meta.env.BASE_URL}flowers/flower4.png`,
   },
   {
     id: 5,
-    name: "Dahlia",
-    image: "/flowers/flower5.png",
+    name: "Pinkrose",
+    image: `${import.meta.env.BASE_URL}flowers/flower5.png`,
   },
   {
     id: 6,
-    name: "Orchid",
-    image: "/flowers/flower6.png",
+    name: "Hibiscus",
+    image: `${import.meta.env.BASE_URL}flowers/flower6.png`,
   },
   {
     id: 7,
-    name: "Sunflower",
-    image: "/flowers/flower7.png",
+    name: "Whiteroses",
+    image: `${import.meta.env.BASE_URL}flowers/flower7.png`,
   },
 ];
 
